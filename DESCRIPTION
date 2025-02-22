@@ -1,0 +1,10 @@
+Package: SNPearl
+Title: A Lightweight R Package for Genome-Wide Association Studies (GWAS) with PCA-Based Cofactor Selection
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sadikshya", "Poudel", , "sadikshyapoudel7@gmail.com", role = c("aut", "cre"))
+Description: SNPearl is an R package designed for performing Genome-Wide Association Studies (GWAS) using Generalized Linear Models (GLM) while integrating Principal Component Analysis (PCA) to correct for population structure. It provides a streamlined pipeline to analyze genetic association between phenotypic traits and Single Nucleotide Polymorphisms (SNPs). SNPearl ensures robustness by automatically excluding highly correlated principal components with user-supplied covariates, reducing confounding effects. The package outputs association statistics, including p-values, and provides visualization tools such as Manhattan and Q-Q plots for result interpretation. Additionally, SNPearl includes a simulation framework to compare its performance against other GWAS methods, demonstrating its efficiency and accuracy.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
